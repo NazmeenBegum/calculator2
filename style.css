@@ -1,0 +1,53 @@
+body{
+    padding-top: 60px;
+    background-color: black;
+}
+
+#container{
+    border: 3px solid white;
+    height: 550px;
+    width: 400px;
+    background-color:white;
+    justify-content: space-around;
+    
+    
+}
+#result{
+    width: 385px;
+    height: 90px;
+    border: 5px solid black;
+    float: left;
+}
+button{
+    height: 85px;
+    width: 85px;
+    font-size: 40PX;
+    border-radius: 50PX;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 2px solid black;
+    color: black;
+    box-shadow: 2px solid black
+   
+}
+#green{
+    background-color: rgb(100, 197, 100);
+}
+#red{
+    background-color: red;
+}
+input{
+    font-size: 50px;
+    float: left;
+}
+#zero{
+    width: 165px;
+    height: 80px;
+}
+#yellow{
+    background-color: rgb(236, 194, 54);
+}
+::placeholder{
+    float: right;
+}

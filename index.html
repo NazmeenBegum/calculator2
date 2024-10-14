@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 style="color: white;">CALCULATOR</h1>
+    <div id="container">
+        <input type="text" placeholder="0" disabled id="result">
+        <button id="red" onclick="clearDisplay().tostring().slide(0,-1)">C</button>    
+        <button onclick="display('%')">%</button> 
+        <button onclick="del()">X</button>    
+        <button id="yellow" onclick="display('/')">/</button>  
+        <button onclick="display(1)">1</button> 
+        <button onclick="display(2)">2</button>      
+        <button onclick="display(3)">3</button>      
+        <button id="yellow" onclick="display('+')">+</button>      
+        <button onclick="display(4)">4</button>      
+        <button onclick="display(5)">5</button>      
+        <button onclick="display(6)">6</button>      
+        <button  id="yellow" onclick="display('-')">-</button>
+        <button onclick="display(7)">7</button>      
+        <button onclick="display(8)">8</button>      
+        <button onclick="display(9)">9</button>
+        <button  id="yellow" onclick="display('*')">*</button>     
+        <button id="zero" onclick="display(0)">0</button> 
+         
+        <button onclick="display('.')">.</button> 
+        <button id="green" onclick="Result()">=</button>             
+    </div>
+    </center>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
